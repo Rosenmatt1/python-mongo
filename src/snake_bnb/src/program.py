@@ -53,6 +53,7 @@ OI??????????I$$M=,:+7??I$7I???????????
 def find_user_intent():
     print("[g] Book a cage for your snake")
     print("[h] Offer extra cage space")
+    print("program.py is ready to build out")
     print()
     choice = input("Are you a [g]uest or [h]ost? ")
     if choice == 'h':
