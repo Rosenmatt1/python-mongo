@@ -40,6 +40,7 @@ def register_cage(active_account: Owner,
     cage.save()
 
     account = find_account_by_email(active_account.email)
+    print(f"account, {account}")
     account.cage_ids.append(cage.id)
     account.save()
 
