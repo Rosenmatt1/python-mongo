@@ -105,6 +105,7 @@ def register_cage():
     )
 
     state.reload_account()
+    print(f"test the age {cage}")
     success_msg(f'Register new cage with id {cage.id}.')
 
 
